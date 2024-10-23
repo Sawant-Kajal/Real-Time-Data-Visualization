@@ -6,7 +6,7 @@ from googleapiclient.discovery import build
 fieldnames = ["upload_date", "video_name", "likes", "channel_name"]
 
 # Replace with your own API key
-api_key = 'AIzaSyCKkRZ-_aj2yXOEqCc_CAhSU0mduypnmcA'
+api_key = 'API KEY'
 youtube = build('youtube', 'v3', developerKey=api_key)
 
 # Replace with the channel names of the YouTube channels you want to track
